@@ -1,0 +1,244 @@
+.my-div{
+
+color: darkkhaki;
+width: 200px;
+height: 200px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #12d6b6;
+    color: white;
+    padding: 70px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    color: #61dafb;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  main h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+  }
+  
+  /* Profile Cards */
+  .profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .profile-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 250px;
+    transition: transform 0.3s;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile-card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .profile-card h3 {
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .profile-card p {
+    font-size: 0.95em;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #24292e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+
+  .jobs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .job-card {
+    background: linear-gradient(135deg, #fff9f0, #ffe4c4);
+    border: 2px solid #ffd8a8;
+    border-radius: 20px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .job-card h3 {
+    color: #ff7f50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-card p {
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  .apply-form {
+    background: linear-gradient(135deg, #f0fff0, #d0f0c0);
+    padding: 2rem;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apply-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2e8b57;
+  }
+  
+  .apply-form input[type="text"],
+  .apply-form input[type="email"],
+  .apply-form input[type="file"],
+  .apply-form select,
+  .apply-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .apply-form button {
+    background-color: #2e8b57;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .apply-form button:hover {
+    background-color: #246b45;
+  }
+  
+  .courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.course-card {
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+  border: 2px solid #b3e0ff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card h3 {
+  color: #007acc;
+  margin-bottom: 0.5rem;
+}
+
+.course-card p {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.course-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #007acc;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.course-card a:hover {
+  background-color: #005b99;
+}
+
+.main{
+height: 200;
+
+
+
+
+}
